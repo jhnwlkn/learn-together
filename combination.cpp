@@ -24,9 +24,6 @@ long long int faktorial(int a){
 		
 		c = a-b;
 		px = faktorial(a)/(faktorial(b)*faktorial(c));
-		cout <<"faktorial a\t\t= "<< faktorial(a)<<endl;
-		cout <<"faktorial b\t\t= "<< faktorial(b)<<endl;
-		cout <<"faktorial c(c=a-b)\t= "<< faktorial(c)<<endl;
 		cout <<"C(a,b)\t\t\t= "<<px<< endl;	
 		
 	return 0;
